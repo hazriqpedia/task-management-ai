@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "rootDir": "./src",      // organize source files
+    "outDir": "./dist",      // compiled JS output
+    "esModuleInterop": true, // import express and others cleanly
+    "strict": true,          // strict type checks (recommended)
+    "skipLibCheck": true,    // faster build by skipping lib checks
+    "forceConsistentCasingInFileNames": true
+  }
+}
