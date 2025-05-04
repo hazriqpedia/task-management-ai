@@ -1,1 +1,26 @@
 GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/task
+
+
+###
+
+POST http://localhost:3000/task
+content-type: application/json
+
+{
+    "title": "task3",
+    "description": "x"
+}
+
+
+### 
+
+POST http://localhost:3000/task
+content-type: application/json
+
+{
+    "title": "taskwithdesc",
+}

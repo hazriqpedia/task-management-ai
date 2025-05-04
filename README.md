@@ -31,8 +31,8 @@ todo-app/
 npm init -y
 
 // Install dependencies
-npm install express mongoose dotenv
-npm install -D typescript ts-node-dev @types/node @types/express nodemon ts-node
+npm install express mongoose dotenv yup
+npm install -D typescript ts-node-dev @types/node @types/express nodemon ts-node @types/yup
 
 npm install -D jest ts-jest @types/jest supertest @types/supertest
 npx ts-jest config:init
