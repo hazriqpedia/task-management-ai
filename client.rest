@@ -24,3 +24,18 @@ content-type: application/json
 {
     "title": "taskwithdesc",
 }
+
+
+
+###
+
+DELETE http://localhost:3000/task/68173d6be39e31ff2fd2769e
+
+
+###
+PATCH  http://localhost:3000/task/68173e2297a271db6c18caf0
+content-type: application/json
+
+{
+    "title": "new task3"
+}

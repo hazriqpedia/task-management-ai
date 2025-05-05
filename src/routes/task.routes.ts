@@ -15,4 +15,6 @@ router.get("/health", (req, res) => {
 
 router.delete("/:id", TaskController.deleteTask);
 
+router.patch("/:id", TaskController.updateTask);
+
 export default router;
